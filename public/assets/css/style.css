@@ -1,0 +1,70 @@
+@font-face {
+   font-family: system;
+   src: url('../fonts/SFProText-Medium.ttf');
+}
+
+body {
+   font-family: system;
+   /* font-size: 1rem; */
+}
+
+#sidebar-menu ul li a {
+   display: block;
+   padding: 0.625rem 1.5rem;
+   color: #545a6d;
+   position: relative;
+   font-size: 14px;
+   -webkit-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+#sidebar-menu ul li a i {
+   display: inline-block;
+   min-width: 1.75rem;
+   padding-bottom: 0.125em;
+   font-size: 1.25rem;
+   line-height: 1.40625rem;
+   vertical-align: middle;
+   color: #7f8387;
+   -webkit-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+.auth-full-bg {
+   /* background-color: rgba(85, 110, 230, 0.25); */
+   background-image: url('../images/background/front-of-the-restaurant.jpg');
+   background-repeat: round;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   /* opacity: 0.4; */
+   filter: brightness(50%);
+
+}
+
+#sidebar-menu ul li ul.sub-menu li a {
+   padding: 0.4rem 1.5rem 0.4rem 3.5rem;
+   font-size: 14px;
+   color: #545a6d;
+}
+
+.app-search .form-control {
+   border: none;
+   height: 38px;
+   padding-left: 40px;
+   padding-right: 20px;
+   background-color: #f3f3f9;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   border-radius: 30px;
+   width: 500px;
+}
+
+.modal-footer>button, div.modal-footer>form>button {
+   text-transform: uppercase;
+   /* font-family: "SF PRO TEXT"; */
+   font-weight: 500;
+   font-size: 0.9em;
+   padding: 0.6em 0.9em;
+   letter-spacing: 0.09em;
+}

@@ -1,0 +1,37 @@
+@font-face {
+   font-family: system;
+   src: url("fonts/SFProText-Medium.ttf");
+}
+
+body {
+   font-family: system !important;
+}
+
+.table .thead-dark th {
+   background-color: #1f2937;
+   color: #fff;
+}
+
+.table .thead-dark th a {
+   color: #1f2937;
+}
+
+.table .thead-light th {
+   background-color: #f2f4f6;
+   color: #1f2937;
+}
+
+.table .thead-light th a {
+   color: #1f2937;
+}
+
+tbody {
+   border-top: 0 !important;
+}
+
+.badge {
+   font-family: inter;
+   font-size: 0.7rem;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+}
